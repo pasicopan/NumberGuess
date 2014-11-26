@@ -10,6 +10,7 @@
 		7FED6C6B1A25810600DE3632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED6C6A1A25810600DE3632 /* AppDelegate.swift */; };
 		7FED6C6D1A25810600DE3632 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FED6C6C1A25810600DE3632 /* Images.xcassets */; };
 		7FED6C791A25810600DE3632 /* NumberGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED6C781A25810600DE3632 /* NumberGuessTests.swift */; };
+		7FED6C871A25817200DE3632 /* NumberGuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED6C861A25817200DE3632 /* NumberGuessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		7FED6C721A25810600DE3632 /* NumberGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FED6C771A25810600DE3632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FED6C781A25810600DE3632 /* NumberGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessTests.swift; sourceTree = "<group>"; };
+		7FED6C861A25817200DE3632 /* NumberGuessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberGuessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		7FED6C671A25810600DE3632 /* NumberGuess */ = {
 			isa = PBXGroup;
 			children = (
+				7FED6C861A25817200DE3632 /* NumberGuessViewController.swift */,
 				7FED6C6A1A25810600DE3632 /* AppDelegate.swift */,
 				7FED6C6C1A25810600DE3632 /* Images.xcassets */,
 				7FED6C681A25810600DE3632 /* Supporting Files */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FED6C6B1A25810600DE3632 /* AppDelegate.swift in Sources */,
+				7FED6C871A25817200DE3632 /* NumberGuessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
